@@ -561,7 +561,28 @@
   //}
 //}
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+// import java.util.Scanner;
+
+// public class Main{
+//     public static void res(){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("please enter a number:");
+//         int num = sc.nextInt();
+//         if(num%2==0){
+//             System.out.println("its even!");
+//         }
+//         else{
+//             System.out.println("odd!!");
+//         }
+//     }
+//     public static void main(String args[]){
+//         res();
+//     }
+// }
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //25
 //programe of input by user in functions and methods;
