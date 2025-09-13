@@ -700,7 +700,25 @@
 //}
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+import java.util.Scanner;
 
+public class Main{
+    public static String name(String a, String b){
+        String name3 = a;
+        String name4 = b;
+        String name5 = name3 + " " + name4;
+        System.out.println("Your name is:" + " " + name5);
+        return a+b;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter first name:");
+        String name1 = sc.nextLine();
+        System.out.println("Please enter last name:");
+        String name2 = sc.nextLine();
+        name(name1,name2);
+    }
+}
 
 
 
