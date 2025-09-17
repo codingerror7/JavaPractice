@@ -886,6 +886,28 @@ public class Main{
 
 
 
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[3];
+        System.out.println("Please enter physics marks:");
+        arr[0] = sc.nextInt();
+        System.out.println("Please enter chemistry marks:");
+        arr[1] = sc.nextInt();
+        System.out.println("Please enter maths marks:");
+        arr[2] = sc.nextInt();
+        System.out.println("PHYSICS = " + arr[0]);
+        System.out.println("CHEMISTRY = " + arr[1]);
+        System.out.println("MATHS = " + arr[2]);
+        int res = (arr[0]+arr[1]+arr[2]);
+        System.out.println("TOTAL = " + res + " OUT OF 300!");
+    }
+}
+
+
+
 
 //33
 //import java.util.Scanner;
