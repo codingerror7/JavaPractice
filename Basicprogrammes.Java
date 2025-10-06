@@ -284,6 +284,25 @@
 //  }
 //}
 
+
+
+//LEAP YEAR PROGRAMME:
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER A YEAR:");
+        int year = sc.nextInt();
+        if(year%400==0||year%4==0 && year%100!=0){
+            System.out.println(year + " IS A LEAP YEAR");
+        }
+        else{
+            System.out.println(year + " IS NOT A LEAP YEAR!");
+        }
+    }
+}
+
+
 //13)
 //switch button code;
 
