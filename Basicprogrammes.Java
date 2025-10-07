@@ -638,6 +638,30 @@ public class dsa{
 
 
 
+//TO CHECK ODD OR EVEN:
+import java.util.Scanner;
+
+public class dsa{
+    public static int checkNum(int a){
+        if(a%2==0){
+            System.out.println("even");
+        }
+        else{
+            System.out.println("Odd");
+        }
+        return a;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER A NUM:");
+        int num = sc.nextInt();
+        System.out.println("THE NUM" + " " + num + " " + "IS:");
+        checkNum(num);
+    }
+}
+
+
+
 //25
 //programe of input by user in functions and methods;
 
