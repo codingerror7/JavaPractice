@@ -662,6 +662,28 @@ public class dsa{
 
 
 
+//TO CALCULATE FACTORIAL:
+import java.util.Scanner;
+
+public class dsa{
+    public static int fact(int a){
+        int fact = 1;
+        for(int i = 1; i <= a; i++){
+            fact = fact * i;
+        }
+        return fact;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER A NUM:");
+        int num = sc.nextInt();
+        int res = fact(num);
+        System.out.println(res);
+    }
+}
+
+
+
 //25
 //programe of input by user in functions and methods;
 
