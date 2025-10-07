@@ -712,6 +712,28 @@ public class dsa{
 
 
 
+//PROGRAMME TO CALCULATE POWER:
+import java.util.Scanner;
+
+public class dsa{
+    public static void pow(int a , int b){
+        double res = Math.pow(a, b);   //power fn
+        System.out.println(res);
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter a:");
+        int c = sc.nextInt();
+        System.out.println("Please enter b:");
+        int d = sc.nextInt();
+        System.out.println(c + " " + "KI POWER" + " " + d + " " + "=");
+        pow(c,d);
+    }
+}
+
+
+
+
 //25
 //programe of input by user in functions and methods;
 
