@@ -619,6 +619,25 @@ public class Main{
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+//TO PRINT SQUARE OF NUM INPUT BY USER:
+import java.util.Scanner;
+
+public class dsa{
+    public static int square(int a){
+        return a*a;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER A NUMBER:");
+        int num = sc.nextInt();
+        System.out.println("THE SQUARE OF " + num + " IS:" + " " + square(num));
+    }
+}
+
+
+
 //25
 //programe of input by user in functions and methods;
 
