@@ -684,6 +684,34 @@ public class dsa{
 
 
 
+//check biggest num:
+import java.util.Scanner;
+
+public class dsa{
+    public static void big(int a, int b){
+        if(a>b){
+            System.out.println(a + " " + "IS GREATER THAN" + " " + b);
+        }
+        else if(b>a){
+            System.out.println(b + " " + "IS GREATER THAN" + " " + a);
+        }
+        else{
+            System.out.println("BOTH ARE EQUAL.");
+        }
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER A:");
+        int c = sc.nextInt();
+        System.out.println("PLEASE ENTER B:");
+        int d = sc.nextInt();
+        big(c,d);
+
+    }
+}
+
+
+
 //25
 //programe of input by user in functions and methods;
 
