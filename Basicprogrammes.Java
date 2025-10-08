@@ -774,6 +774,40 @@ public class dsa{
 }
 
 
+
+//PROGRAMME TO SELECT EVEN/ODD VALUES IN ARRAY ACC TO INPUT BY USER:
+import java.util.Scanner;
+public class dsa{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int arr[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30};
+        System.out.println("WHAT DO YOU WANT?? EVEN OR ODD... FROM THE ARRAY:");
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("PLEASE ENTER:");
+        String type = sc.nextLine();
+        if(type.equals("even")){
+            for(int i = 0; i < arr.length; i++){
+                if(arr[i]%2==0){
+                    System.out.print(arr[i] + " ");
+                }
+            }
+        }
+        else if(type.equals("odd")){
+            for(int i = 0; i < arr.length; i++){
+                if(arr[i]%2!=0){
+                    System.out.print(arr[i] + " ");
+                }
+            }
+        }
+        else{
+            System.out.println("WRONG INPUT..");
+        }
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
