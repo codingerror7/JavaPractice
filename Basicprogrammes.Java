@@ -752,6 +752,26 @@ public class dsa{
 }
 
 
+//INPUT IN ARRAYS:
+import java.util.*;
+
+public class dsa{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        //input for array size:
+        int arr[] = new int[n];
+        System.out.println("THE SIZE OF ARRAY IS" + " " + n);
+        System.out.println("please enter elements in array:");
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
+        for(int i = 0; i < n; i++){
+            System.out.println(arr[i]);
+        }
+        // System.out.println("THE ARRAY IS:" + " " + "[" + arr[0] + "," + arr[1] + "]");
+    }
+}
 
 
 //25
