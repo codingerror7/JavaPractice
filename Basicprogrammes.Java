@@ -925,6 +925,41 @@ public class Main{
 }
 
 
+//FIND ELEMENT INPUT BY USER IN ARRAY:
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("INPUT SIZE:");
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        System.out.println("INPUT ELEMENTS:");
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
+        // System.out.println("THE ELEMENTS ARE:");
+        // for(int i = 0; i < n; i++){
+        //     System.out.print(arr[i] + " ");
+        // }
+        System.out.println("PLEASE ENTER ELEMENT TO SEARCH:");
+        int element = sc.nextInt();
+        for(int i = 0; i < n; i++){
+            if(element==arr[i]){
+                System.out.println("HAAN MIL GYA..");
+                System.out.println(arr[i]);
+                break;  //JAB BHI IF/ELSE LOOP M USE KRTE HAIN THEN WO BAAR BAAR CHLTA H ISLIYE USE ROKNE KE LIYE, SIRF EK BAAR CHLANE KE LIYE BREAK KA USE KIA GYA HAI.
+            }
+            else{
+                System.out.println("NAHI MILA YRR..");
+                break;
+            }
+        }
+        
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
