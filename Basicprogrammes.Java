@@ -901,6 +901,30 @@ public class Main{
 }
 
 
+//REVERSE AN ARRAY:
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("INPUT NO. OF ELEMENTS:");
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        System.out.println("INPUT ARRAY:");
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
+        for(int i = 0; i < n; i++){  //PRINT ARRAYS:
+            System.out.println(arr[i]);
+        }
+        System.out.println("REVERSE ARRAY IS:");
+        for(int i = n-1; i > 0; i--){
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
