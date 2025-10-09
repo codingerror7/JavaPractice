@@ -240,6 +240,25 @@
 //  }
 //}
 
+
+//FIND SUM AND AVERAGE
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextInt();
+        int sum = 0;
+        for(int n = 0; n <= a; n++){
+            sum += n;
+        }
+        System.out.println(sum);
+        double av = (sum/a);
+        System.out.println(av);
+    }
+}
+
+
 //11)
 //code for comparison between and b;
 //import java.util.Scanner;
