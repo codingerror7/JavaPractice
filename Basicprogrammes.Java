@@ -808,6 +808,55 @@ public class dsa{
 }
 
 
+
+//PROGRAMME TO FIND ODD/EVEN IN ARRAY INPUT BY USER:
+import java.util.Scanner;
+
+public class dsa{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("PLEASE ENTER SIZE OF ARRAYS:");
+        int n = sc.nextInt();   //ARRAY SIZE INPUT FROM USER
+        System.out.println("SIZE OF ARRAY IS" + " " + n);
+        int arr[] = new int[n];
+        System.out.println("PLEASE ENTER ELEMENTS IN ARRAY:");
+        for(int i = 0; i < n; i++){
+            //ARRAY ELEMENTS INPUT FROM USER
+            arr[i] = sc.nextInt();
+            
+        }
+        System.out.println("THE ELEMENTS ARE:");
+        for(int i = 0; i < n; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("NOW, ENTER ODD OR EVEN??");
+        String type = sc.next();
+        if(type.equals("even")){   //TO FIND EVEN NUMBER
+            System.out.println("EVEN NUMBERS ARE:");
+            for(int i = 0; i < n; i++){
+                int res = (arr[i]%2);
+                if(res==0){
+                    System.out.print(arr[i] + " ");
+                }
+            }
+        }
+        else if(type.equals("odd")){   //TO FIND ODD NUMBER
+            System.out.println("ODD VALUES ARE:");
+            for(int i = 0; i < n; i++){
+                int res = (arr[i]%2);
+                if(res!=0){
+                    System.out.print(arr[i] + " ");
+                }
+            }
+        }
+        else{
+            System.out.println("wrong input...");
+        }
+
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
