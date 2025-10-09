@@ -857,6 +857,31 @@ public class dsa{
 }
 
 
+//FIND SUM AND AVERAGE:
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("INPUT NO. OF ELEMENTS UN ARRAY:");
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        System.out.println("INPUT ARRAY ELEMENTS:");
+        int sum = 0;
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+            sum = sum+arr[i];
+        }
+        System.out.print("ARRAY ELEMENTS ARE ");
+        for(int i = 0; i < n; i++){
+            System.out.print(arr[i] + " ");
+        }
+        int average = (sum/n);
+        System.out.println("SUM IS" + " " + sum);
+        System.out.println("AVERAGE IS" + " " + average);
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
