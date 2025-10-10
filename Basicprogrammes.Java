@@ -1033,6 +1033,35 @@ public class Main{
 }
 
 
+//MAX ELEMENT:
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER SIZE:");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("ENTER ELEMENTS:");
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
+        int max = arr[0];
+        System.out.println("ELEMENTS ARE:");
+        for(int i = 0; i < n; i++){
+            System.out.println(arr[i]);
+            }
+            System.out.println("MAX ELEMENT IS:");
+            for(int i = 0; i < n; i++){
+                if(arr[i]>max){
+                    max=arr[i];
+                }
+            }
+            System.out.println(max);
+        }
+
+    }
+
 //25
 //programe of input by user in functions and methods;
 
