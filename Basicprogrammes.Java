@@ -991,6 +991,48 @@ public class Main{
 }
 
 
+//SUM OF TWO ARRAYS IN FUNCTIONS:
+import java.util.Scanner;
+
+public class Main{
+    public static void arrSum(int arr3[], int arr4[], int sum1[]){
+        for(int i = 0; i < sum1.length; i++){
+            sum1[i] = arr3[i] + arr4[i];
+        }
+        System.out.println("THE SUM IS:");
+        for(int i = 0; i < sum1.length; i++){
+            System.out.println(sum1[i]);
+        }
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER NO. OF ELEMENTS:");
+        int n = sc.nextInt();
+        System.out.println("SIZE OF ARRAYS IS" + " " + n);
+        int arr1[] = new int[n];
+        int arr2[] = new int[n];
+        int sum[] = new int[n];
+        System.out.println("ENTER ELEMENTS OF ARR1:");
+        for(int i = 0; i < n; i++){
+            arr1[i] = sc.nextInt();
+        }
+        System.out.print("ELEMENTS OF ARR1 ARE:");
+        for(int i = 0; i < n; i++){
+            System.out.print(arr1[i] + " ");
+        }
+        System.out.println("ENTER ELEMENTS OF ARR2:");
+        for(int i = 0; i < n; i++){
+            arr2[i] = sc.nextInt();
+        }
+        System.out.println("ELEMENTS OF ARR2 ARE:");
+        for(int i = 0; i < n; i++){
+            System.out.print(arr2[i] + " ");
+        }
+        arrSum(arr1, arr2, sum);
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
