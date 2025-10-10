@@ -960,6 +960,37 @@ public class Main{
 }
 
 
+//ARRAY IN FUNCTIONS:
+import java.util.Scanner;
+
+public class Main{
+    public static int arrSum(int arr[]){
+        int sum = 0;
+        for(int i = 0; i < arr.length; i++){
+            sum += arr[i];
+        }
+        return sum;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER SIZE OF ARRAY:");
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        System.out.println("ENTER ELEMENTS IN ARRAY:");
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("ELEMENTS OF ARRAY:");
+        for(int i = 0; i < n; i++){
+            System.out.print(arr[i] + " ");
+        }
+        int res = arrSum(arr);
+        System.out.println("THE SUM OF ARRAY ELEMENTS ARE:" + " " + res);
+
+    }
+}
+
+
 //25
 //programe of input by user in functions and methods;
 
