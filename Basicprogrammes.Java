@@ -1941,7 +1941,39 @@ public class Main{
 //  }
 //}
 
-
+//62
+public class Main{
+    public static void main(String args[]){
+        int n = 234;
+        int m = 453;
+        int o = 678;
+        int p = 897;
+        System.out.println("THE TABLE OF " + n + " " + "IS:");
+        int i = 1;
+        while(i<=10){
+            System.out.println(n*i);
+            i++;
+        }
+        System.out.println("THE TABLE OF " + m +" " + "IS:");
+        int j = 1;
+        while(j<=10){
+            System.out.println(m*j);
+            j++;
+        }
+        System.out.println("THE TABLE OF" + " " + o + " " + "IS:" );
+        int k = 1;
+        while(k<=10){
+            System.out.println(o*k);
+            k++;
+        }
+        System.out.println("THE TABLE OF " + p + " IS:");
+        int l = 1;
+        while(l<=10){
+            System.out.println(p*l);
+            l++;
+        }
+    }
+}
 
 
 
