@@ -1977,6 +1977,44 @@ public class Main{
 
 
 
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("THIS IS A CALCULATOR:");
+        System.out.println("ENTER FIRST NUMBER:");
+        double a = sc.nextDouble();
+        System.out.println("ENTER SECOND NUMBER:");
+        double b = sc.nextDouble();
+        sc.nextLine();  //to clean buffer memory
+        System.out.println("ENTER NAME OF OPERATION:");
+        String op = sc.nextLine();
+        if(op.equalsIgnoreCase("add") || op.equalsIgnoreCase("additon") || op.equalsIgnoreCase("plus")){
+            double res = a+b;
+            System.out.println(res);
+        }
+        else if(op.equalsIgnoreCase("sub") || op.equalsIgnoreCase("subtraction") || op.equalsIgnoreCase("minus") || op.equalsIgnoreCase("difference")){
+            double res = a-b;
+            System.out.println(res);
+        }
+        else if(op.equalsIgnoreCase("multiply") || op.equalsIgnoreCase("multiplication") || op.equalsIgnoreCase("into")){
+            double res = a*b;
+            System.out.println(res);
+        }
+        else if(op.equalsIgnoreCase("divide") || op.equalsIgnoreCase("divisible")){
+            double res = a/b;
+            System.out.println(res);
+        }
+        else if(op.equalsIgnoreCase("power") || op.equalsIgnoreCase("exponent") || op.equalsIgnoreCase("exponentiation")){
+            double res = Math.pow(a, b);
+            System.out.println(res);
+        }
+
+    }
+}
+
+
 
 
 
