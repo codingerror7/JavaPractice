@@ -2042,6 +2042,57 @@ public class Main{
 }
 
 
+//PROGRAMME TO ANALYZE LARGEST NUMBER AMONG MULTIPLE NUMBERS:
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        System.out.println("TO FIND LARGEST NUMBER:");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a:");
+        double a = sc.nextDouble();
+        System.out.println("Enter b:");
+        double b = sc.nextDouble();
+        System.out.println("Enter c:");
+        double c = sc.nextDouble();
+        System.out.println("Enter d:");
+        double d = sc.nextDouble();
+        System.out.println("Enter e:");
+        double e = sc.nextDouble();
+        System.out.println("Enter f:");
+        double f = sc.nextDouble();
+        double res = Math.max(a, Math.max(b, c));
+        double res1 = Math.max(d, Math.max(e, f));
+        double mainRes = Math.max(res, res1);
+        if(a>b && a>c && a>d && a>e && a>f){
+            System.out.println("A is largest!");
+            System.out.println(mainRes);
+        }
+        else if(b>a && b>c && b>d && b>e && b>f){
+            System.out.println("B is largest!");
+            System.out.println(mainRes);
+        }
+        else if(c>a && c>b && c>d && c>e && c>f){
+            System.out.println("C is largest!");
+            System.out.println(mainRes);
+        }
+        else if(d>a && d>b && d>c && d>e && d>f){
+            System.out.println("D is largest!");
+            System.out.println(mainRes);
+        }
+        else if(e>a && e>b && e>c && e>d && e>f){
+            System.out.println("E is largest!");
+            System.out.println(mainRes);
+        }
+        else {
+            System.out.println("F is largest!");
+            System.out.println(mainRes);
+        }
+
+    }
+}
+
+
 
 
 
