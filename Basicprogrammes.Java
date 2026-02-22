@@ -619,6 +619,33 @@ public class dsa{
     }
 }
 
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enetr a:");
+        int a = sc.nextInt();
+        System.out.println("Please enter B:");
+        int b = sc.nextInt();
+        System.out.println("Please enter C:");
+        int c = sc.nextInt();
+        int res = Math.max(a, Math.max(b, c));
+        if(a>b && a>c){
+            System.out.println("A is greater");
+            System.out.println(res);
+        }
+        else if(b>a && b>c){
+            System.out.println("B is greater");
+            System.out.println(res);
+        }
+        else if(c>a && c>b){
+            System.out.println("C is greater");
+            System.out.println(res);
+        }
+    }
+}
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // import java.util.Scanner;
