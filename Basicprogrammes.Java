@@ -2109,4 +2109,27 @@ public class Main{
 }
 
 
+//sum of all elements in array:
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[4];
+        arr[0] = sc.nextInt();
+        arr[1] = sc.nextInt();
+        arr[2] = sc.nextInt();
+        arr[3] = sc.nextInt();
+        int sum = 0;
+        int i = 0;
+        while(i<arr.length){
+            sum += arr[i];
+            i++;
+        }
+        System.out.println(sum);
+    }
+}
+
+
+
 
