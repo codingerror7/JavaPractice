@@ -2093,7 +2093,20 @@ public class Main{
 }
 
 
+import java.util.Scanner;
 
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a num:");
+        double a = sc.nextInt();
+        double i = 1; 
+        while(i<=a){
+            System.out.println("result of" + " " + a + "/" + i + " " + "is =" + " " + (a/i));
+            i++;
+        }
+    }
+}
 
 
 
