@@ -2170,4 +2170,43 @@ public class dsa{
 }
 
 
+import java.util.Scanner;
+
+public class dsa{
+    public static int linearSearch(String arr[],String key){
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i].equalsIgnoreCase(key)){
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter array size:");
+        int n = sc.nextInt();
+        String[] arr = new String[n];
+        System.out.println("array size is" + " " + n);
+        System.out.println("enter array elements:");
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = sc.nextLine().toUpperCase();        
+        }
+        System.out.println("array elements are:");
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(arr[i]);
+        }
+        System.out.println("Enter food name:");
+        String food = sc.nextLine().toUpperCase();
+        int res = linearSearch(arr, food);
+        if(res==-1){
+            System.out.println("not found!");
+        }
+        else{
+            System.out.println("food item at index" + " " + res);
+        }
+
+    }
+
+}
+
 
