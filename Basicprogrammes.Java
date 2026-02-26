@@ -2209,4 +2209,19 @@ public class dsa{
 
 }
 
+public class dsa{
+    public static int printNum(int n){
+        if(n==101){
+            return 1;
+        }
+        System.out.print(n+" ");
+        printNum(n+1);
+        return-1;
+    }
+    public static void main(String args[]){
+        int n = 1;
+        printNum(n);
+    }
+}
+
 
