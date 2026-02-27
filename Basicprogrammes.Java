@@ -2251,3 +2251,21 @@ public class dsa{
 }
 
 
+//TWO NUMBER MULTIPLICAION INFINITY PROGRAM:
+import java.util.Scanner;
+public class dsa{
+    public static void table(int n, int m){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 2 numbers to multiply:");
+        n = sc.nextInt();
+        m = sc.nextInt();
+        int res = m*n;
+        System.out.println("Answer is" + " " + res);
+        table(n, m);
+    }
+    public static void main(String args[]){
+        table(0, 0);
+    }
+}
+
+
