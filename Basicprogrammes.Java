@@ -2225,3 +2225,29 @@ public class dsa{
 }
 
 
+public class dsa{
+    public static void inc(int n){
+        if(n==11){
+            return;
+        }
+        System.out.print(n+" ");
+        inc(n+1);
+    }
+    public static void dec(int m){
+        if(m==0){
+            return;
+        }
+        System.out.print(m+" ");
+        dec(m-1);
+    }
+    public static void main(String args[]){
+        int n = 1;
+        int m = 10;
+        System.out.println("increasing order is:");
+        inc(n);
+        System.out.println("decreasing order is:");
+        dec(m);
+    }
+}
+
+
