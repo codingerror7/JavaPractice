@@ -1,4 +1,4 @@
-☕ Java DSA Practice Repository
+☕ Java DSA Practice Repository.
 
 This repository contains my Java practice code focused mainly on Data Structures and Algorithms (DSA).
 I am using this repository to strengthen problem-solving skills, improve logical thinking, and prepare for coding interviews.
