@@ -51,11 +51,4 @@ To improve problem-solving speed and accuracy
 To track my learning progress over time
 
 
-🚀 Long-Term Vision
-
-To build strong algorithmic foundations and become proficient in solving real-world computational problems efficiently.
-This repository serves as both:
-A structured revision resource
-A reflection of my growth as a software engineer
-
 ⭐ If you find this repository helpful, consider giving it a star.
